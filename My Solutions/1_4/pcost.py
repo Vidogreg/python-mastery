@@ -9,5 +9,6 @@ def portfolio_cost(filename):
                 print('Reason: ' + str(e))
     return portfolio_price
 
-# print(portfolio_cost('Data/portfolio.dat'))
-print(portfolio_cost('Data/portfolio3.dat'))
+if __name__ == '__main__':
+    # print(portfolio_cost('Data/portfolio.dat'))
+    print(portfolio_cost('Data/portfolio3.dat'))
