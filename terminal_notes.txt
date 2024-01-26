@@ -1,0 +1,15 @@
+print working directory
+pwd
+
+show what is in the current directory
+ls
+
+go to directory 
+cd 'My new directory'
+
+go back
+cd ..
+
+run a python script example
+python 'My Solutions\1_1\art.py' 4 34
+python 'My Solutions\1_3\pcost.py' 4 34
