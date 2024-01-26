@@ -12,4 +12,6 @@ cd ..
 
 run a python script example
 python 'My Solutions\1_1\art.py' 4 34
-python 'My Solutions\1_3\pcost.py' 4 34
+
+run a python script with interactive shell
+python -i 'My Solutions\1_3\pcost.py'
