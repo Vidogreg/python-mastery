@@ -29,4 +29,11 @@ pass
 
 
 
-# 
+# named tuples
+import typing
+class Stock(typing.NamedTuple):
+    name: str
+    shares: int
+    price: float
+s = Stock('GOOG', 10, 34.56)
+isinstance(s, tuple)
